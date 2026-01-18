@@ -5,7 +5,7 @@ import JobDescription from './components/JobDescription';
 import TailoredResume from './components/TailoredResume';
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+const API_URL = import.meta.env.VITE_API_URL || 'https://resume-tailor-backend-one.vercel.app';
 
 function App() {
   const [resumeFile, setResumeFile] = useState(null);
